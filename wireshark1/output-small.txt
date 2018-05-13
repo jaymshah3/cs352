@@ -1,0 +1,27 @@
+rmartin@inspiron$ python wireshark1.py -f small.pcap
+CS 352 Wireshark, part 1
+Total number of packets, 141
+Source IP addresse, count
+172.16.11.12,70
+216.34.181.45,33
+96.17.211.172,19
+172.16.11.1,14
+74.125.19.17,4
+Destination TCP ports,count
+80,45
+64581,33
+64584,6
+64583,5
+443,5
+64565,4
+64582,4
+64585,4
+Source IPs/Destination TCP ports,count 
+172.16.11.12:80,45
+216.34.181.45:64581,33
+96.17.211.172:64584,6
+172.16.11.12:443,5
+96.17.211.172:64583,5
+96.17.211.172:64585,4
+96.17.211.172:64582,4
+74.125.19.17:64565,4
